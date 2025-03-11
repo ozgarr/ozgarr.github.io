@@ -6,6 +6,7 @@ myImage.onclick = () => {
         myImage.setAttribute("src", "images/the-strokes-couch.webp");
     } else if (mySrc === "images/the-strokes-couch.webp") {
         myImage.setAttribute("src", "images/marcinek.jpg");
+        myHeading.textContent = 'marcinek to krul disco';
     } else {
         myImage.setAttribute("src", "images/the-new-abnormal.jpg");
     }
